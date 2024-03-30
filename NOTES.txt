@@ -1,0 +1,37 @@
+#  _____ _           ____                     _   _ _        _       
+# |_   _| |__   ___ / ___| __ _ ___ ___ _   _| \ | (_)_ __  (_) __ _ 
+#   | | | '_ \ / _ \ |  _ / _` / __/ __| | | |  \| | | '_ \ | |/ _` |
+#   | | | | | |  __/ |_| | (_| \__ \__ \ |_| | |\  | | | | || | (_| |
+#   |_| |_| |_|\___|\____|\__,_|___/___/\__, |_| \_|_|_| |_|/ |\__,_|
+#                                       |___/             |__/       
+#   Spawned: Wed Mar 27 2024 - 21:36
+#  Last Mod: Thu Mar 28 2024 - 02:07
+#  Notes: Void First steps
+
+#  SSH??
+xbps-install -u ## ?????? Best Update?
+xbps-install git make mc
+mkdir .dbus Git && cd Git
+git clone Void-Install && cd Void-Install 
+git.suckless/dmenu && cd dmenu ; sudo make clean install
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm 
+#  install base packages
+#  cp .xinitrc
+#  cp .configs (fzf??)
+#  
+### Genfstab ###
+# ntfs-3g is installed 
+# mount drives and make sure permissions are right. 
+# su #
+# bash (if needed)
+# test script FIRST!!!
+./genfstab /
+# check if good then > /etc/fstab
+######
+
+
+
+
+
+
+
