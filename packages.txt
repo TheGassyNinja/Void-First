@@ -22,7 +22,7 @@ curl
 #fzf
 #ranger
 #python3-Pillow
-
+#firefox
 
 
 
